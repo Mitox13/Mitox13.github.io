@@ -5,12 +5,244 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <title>PORTAFOLIO</title>
 </head>
 
 <body>
-    <h1>Presentación de protafolios</h1>
-    Luis Jaime Ramos Laurente
+    <header class="header" id="inicio">
+        <h1 class="header__titulo">Portfolios Web</h1>
+
+        <div class="header__nav">
+            <ul class="header__list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#portfolios">Portfolios</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="wrapper__home">
+
+        <div class="home__presentacion" id="home">
+
+            <figure class="home__figure">
+                <img src="images/fbfoto.jpg" alt="">
+            </figure>
+
+        </div>
+        <div class="home__hello">
+            <p>Hello! I am</p>
+            <p>Jaime Ramos</p>
+            <p>Diseñador Web</p>
+        </div>
+    </section>
+    <div class="wrapper">
+
+        <section class="wrapper__aboutMe" id="about" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h2 class="aboutMe__title">
+                About me
+            </h2>
+            <p class="aboutMe__description">
+                Hola.Mi nombre es Luis Jaime Ramos Laurente, un diseñador web de la ciudad de Hyo, Perú. Estudiante del último año de bachillerato deseoso de formar parte del mundo laboral y aprender más acerca del desarrollo Web.
+
+            </p>
+            <div class="aboutMe__info1">
+                <div class="aboutMe__educations">
+                    <h3 class="aboutMe__subtitle">EDUCATION</h3>
+
+                    <div class="education">
+
+                        <div class="education__title">Colegio secundaria</div>
+                        <div class="education__text">I.E.P "Bertolt Brecht" (2008-2013)</div>
+                    </div>
+                    <div class="education">
+                        <div class="education__title">Estudio lenguaje</div>
+                        <div class="education__text">Centro de Idiomas UNCP - Inglés Básico (2018)</div>
+                        <div class="education">
+                            <div class="education__title">Estudio Superior</div>
+                            <div class="education__text">Universidad Nacional del Centro del Perú (2014-2019)</div>
+                        </div>
+                    </div>
+                    <div class="education">
+                        <div class="education__title">Prácticas pre-Profesionales</div>
+                        <div class="education__text">Municipalidad Distrital de Chilca (2020)</div>
+                    </div>
+                </div>
+                <div class="aboutMe__personalSkills">
+                    <h3 class="aboutMe__subtitle">PERSONAL SKILLS</h3>
+                    <ul class="skill__list">
+                        <li>Trabajo en equipo</li>
+                        <li> Adaptabilidad</li>
+                        <li>Escucha activa</li>
+                        <li>Creatividad</li>
+                        <li>Productividad</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="aboutMe__tecnicalSkills">
+                <div class="tecnicalSkills__barras">
+                    <div class="skill">
+                        <figure class="skill__img">
+
+                            <i class="fab fa-html5"></i>
+                        </figure>
+                        <div class="skill_barra">
+
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <figure class="skill__img">
+                            <i class="fab fa-css3-alt"></i>
+                        </figure>
+                        <div class="skill_barra">
+
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <figure class="skill__img">
+                            <i class="fab fa-node-js"></i>
+                        </figure>
+                        <div class="skill_barra">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tecnicalSkills__list">
+                    <h3 class="aboutMe__subtitle">TECNICAL SKILLS</h3>
+                    <ul class="skill__list">
+                        <li>Web Desing</li>
+                        <li>HTML</li>
+                        <li> CSS</li>
+                        <li>JAVASCRIPT</li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="wrapper__portfolios " id="portfolios" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h2 class="portfolios__title">
+                Portfolios
+            </h2>
+            <section class="portfolios__cards">
+                <div class="portfolio__card">
+                    <h3> <a href="https://mitox13.github.io/Front1mentor/" target="_blank">Página Front mentor 1</a> </h3>
+                    <figure class="skill__img">
+                        <a href="https://mitox13.github.io/Front1mentor/" target="_blank"><img src="images/pf1.png" alt=""></a>
+                    </figure>
+
+                </div>
+                <div class="portfolio__card">
+                    <h3> <a href="https://mitox13.github.io/sidebar-responsive/" target="_blank">Sidebar Responsivo</a> </h3>
+                    <figure class="skill__img">
+                        <a href="https://mitox13.github.io/sidebar-responsive/" target="_blank"> <img src="images/pf2.png" alt=""> </a>
+                    </figure>
+
+                </div>
+
+            </section>
+
+        </section>
+
+
+        <section class="wrapper__contact" id="contact" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h2 class="contact__title">
+                Contact me
+            </h2>
+
+            <div class="contact__me">
+
+
+                <div class="contact__infos">
+                    <div class="contact__info">
+                        <p>If you my work feel free to connect with me anytime.Here are my details</p>
+
+                        <div class="details1">
+                            <figure>
+                                <i class="fas fa-mail-bulk f   "></i>
+
+                            </figure>
+                            <div class="email__details">
+                                <p>Email</p>
+                                <p>ramoslaurente13@gmail.com</p>
+                            </div>
+
+                        </div>
+                        <div class="details2">
+                            <figure>
+                                <i class="fas fa-phone    "></i>
+                            </figure>
+                            <div class="email__details">
+                                <p>Phone</p>
+                                <p>987654321</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="contact__message">
+
+
+                    <form class="form1">
+                        <label for="nombre">Nombre: </label>
+                        <input placeholder="Ingrese su nombre" type="text" />
+                        <label for="email">Email: </label>
+                        <input placeholder="Ingrese su correo" type="text" /> ¿Qué te pareció la página?
+                        <textarea id="opinion" name="opinion"></textarea>
+                        <div class="btn__enviar">
+                            <button>Enviar</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer__by">
+            <p> 2020 - Desing by Jaime Ramos</p>
+        </div>
+
+        <figure class="img__home"> <a href="#inicio"><i class="fas fa-home    "></i></a></figure>
+
+        <div class="footer__redes">
+            <figure>
+                <a href="https://www.facebook.com/profile.php?id=100056858904432" target="_blank"><i class="fab fa-facebook" ></i> </a>
+            </figure>
+            <figure>
+                <a href=""> <i class="fas fa-envelope-square"></i> </a>
+            </figure>
+            <figure>
+                <a href="https://github.com/Mitox13" target="_blank"> <i class="fab fa-github"></i></a>
+            </figure>
+
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
